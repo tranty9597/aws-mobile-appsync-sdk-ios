@@ -20,7 +20,6 @@ PODS:
     - SQLite.swift/standard (= 0.12.2)
   - SQLite.swift/standard (0.12.2)
   - Starscream (3.1.1)
-  - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - AppSyncRealTimeClient (~> 1.4)
@@ -29,7 +28,6 @@ DEPENDENCIES:
   - AWSS3 (~> 2.24.0)
   - ReachabilitySwift (= 5.0.0)
   - SQLite.swift (~> 0.12.2)
-  - SwiftLint
 
 SPEC REPOS:
   trunk:
@@ -43,7 +41,6 @@ SPEC REPOS:
     - ReachabilitySwift
     - SQLite.swift
     - Starscream
-    - SwiftLint
 
 SPEC CHECKSUMS:
   AppSyncRealTimeClient: 2b4482b1770a3e5cf64f9714a6d198550017b5a2
@@ -56,8 +53,7 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
-  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 32e0ac12e43edbf6b9f2e07d8cc58e931a4cfced
+PODFILE CHECKSUM: 2fbce2cb4bb095a1d7e018bd720f4f74225f8503
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

@@ -1313,7 +1313,6 @@
 			buildConfigurationList = 17DECF721F59F5FF004B0512 /* Build configuration list for PBXNativeTarget "AWSAppSync" */;
 			buildPhases = (
 				4E996121F39BA74DB553A2CB /* [CP] Check Pods Manifest.lock */,
-				CC254EED21B656000078FDD1 /* SwiftLint */,
 				17DECF591F59F5FF004B0512 /* Sources */,
 				17DECF5A1F59F5FF004B0512 /* Frameworks */,
 				17DECF5B1F59F5FF004B0512 /* Headers */,
@@ -1862,24 +1861,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWSAppSyncTestApp/Pods-AWSAppSyncTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		CC254EED21B656000078FDD1 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\" --config \"${SRCROOT}/.swiftlint.yml\" --path \"${SRCROOT}/AWSAppSyncClient\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
